@@ -1,4 +1,4 @@
-package com.air.codelove;
+package com.air.codelove.onlysend;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -6,7 +6,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- * Socket服务端
+ * Socket基本通信服务端
  *
  * @author zxlei1
  * @date 2018/10/30 14:25

@@ -1,11 +1,11 @@
-package com.air.codelove;
+package com.air.codelove.onlysend;
 
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.Socket;
 
 /**
- * Socket客户端
+ * Socket基本通信客户端
  *
  * @author zxlei1
  * @date 2018/10/30 14:40
