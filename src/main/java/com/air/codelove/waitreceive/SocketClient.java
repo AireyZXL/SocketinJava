@@ -17,7 +17,7 @@ public class SocketClient {
         int port = 55534;
         Socket socket = new Socket(host, port);
         OutputStream os = socket.getOutputStream();
-        String message = "你好，Aiery~~~~~~~~~~";
+        String message = "Hello，Aiery~~~~~~~~~~";
         os.write(message.getBytes("utf-8"));
         //通过shutdownOutput高速服务器已经发送完数据，后续只能接受数据
         socket.shutdownOutput();
